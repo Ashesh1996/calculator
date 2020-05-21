@@ -1,0 +1,96 @@
+<!-- <!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="calculator.css">
+	</head>
+	<body>
+		<div class="container">
+			<input type="text" class="input" id="cal">
+			<div class="calculatorbutton">
+				<button class="calc1 a">C</button>
+				<button class="calc1">&divide;</button>
+
+				<button class="calc1" value="7" onclick="seven()">7</button>
+				<button class="calc1" value="8" onclick="eight()">8</button>
+				<button class="calc1" value="9" onclick="nine()">9</button>
+				<button class="calc1">&times;</button>
+
+
+				<button class="calc1" value="6" onclick="six()">6</button>
+				<button class="calc1" value="5" onclick="five()">5</button>
+				<button class="calc1" value="4" onclick="four()">4</button>
+				<button class="calc1">&minus;</button>
+
+
+				<button class="calc1" value="3" onclick="thre()">3</button>
+				<button class="calc1" value="2" onclick="to()">2</button>
+				<button class="calc1" value="1" onclick="one()">1</button>
+				<button class="calc1">&plus;</button>
+
+				<button class="calc1 b" onclick="zeo()" value="0">0</button>
+                <button class="calc1 e">&equals;</button>
+                
+
+
+
+			</div>	
+				
+		
+		</div>
+		<script type="text/javascript" src="calculator.js"></script>
+
+	</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="calculator.css">
+	</head>
+	<body>
+		<div class="container">
+			<input type="text" class="input" id="cal">
+			<div class="calculatorbutton">
+				<button class="calc1 a" onclick="clea()">C</button>
+				<button class="calc1" value="/" onclick="displayvalue(this.value)">&divide;</button>
+
+				<button class="calc1" value="7" onclick="displayvalue(this.value)">7</button>
+				<button class="calc1" value="8" onclick="displayvalue(this.value)">8</button>
+				<button class="calc1" value="9" onclick="displayvalue(this.value)">9</button>
+				<button class="calc1" value="*" onclick="displayvalue(this.value)">&times;</button>
+				
+
+				<button class="calc1" value="6" onclick="displayvalue(this.value)">6</button>
+				<button class="calc1" value="5" onclick="displayvalue(this.value)">5</button>
+				<button class="calc1" value="4" onclick="displayvalue(this.value)">4</button>
+				<button class="calc1" value="-" onclick="displayvalue(this.value)">&minus;</button>
+				<button class="calc1" value="3" onclick="displayvalue(this.value)">3</button>
+				<button class="calc1" value="2" onclick="displayvalue(this.value)">2</button>
+				<button class="calc1" value="1" onclick="displayvalue(this.value)">1</button>
+				<button class="calc1" value=")" onclick="displayvalue(this.value)">)</button>
+				<button class="calc1" value="(" onclick="displayvalue(this.value)">(</button>
+
+				<button class="calc1" value="" onclick="pie()">&#x3A0;</button>
+				<button class="calc1" value="" onclick="logten()">Log</button>
+				<button class="calc1" value="" onclick="squareroot()">&radic;</button>
+				<button class="calc1" value="" onclick="square()">X&#178;</button>
+				<button class="calc1" value="" onclick="cube()">X&#179;</button>
+
+				<button class="calc1 b" onclick="displayvalue(this.value)" value="0">0</button>
+				<button class="calc1" value="+" onclick="displayvalue(this.value)">&plus;</button>
+                <button class="calc1 e" onclick="totalvalue()">&equals;</button>
+                
+
+
+
+			</div>	
+				
+		
+		</div>
+		<script type="text/javascript" src="calculator.js"></script>
+
+	</body>
+</html>
